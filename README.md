@@ -27,4 +27,42 @@ cd tic-tac-toe-angular
 npm install
 ```
 
+### Running the Game
+
+1. Start the development server:
+```bash
+ng serve
+```
+
+2. Open your browser and navigate to `http://localhost:4200/` to play the game.
+
+## How to Play
+
+1. The game is played on a 3x3 grid.
+
+2. Players take turns to make a move by clicking on an empty cell on the grid.
+
+3. The first player starts with 'X', and the second player uses 'O'.
+
+4. The game continues until one player wins by getting three of their symbols in a row, column, or diagonal, or until the entire grid is filled, resulting in a draw.
+
+## Features
+
+- Interactive game interface built using Angular components.
+- Simple game logic to handle player turns and determine the winner.
+- Error handling for invalid moves and preventing overwriting of occupied cells.
+
+## Contributions
+
+Contributions to this project are welcome! If you find any issues or want to add new features, feel free to create a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgements
+
+- The game logic and UI design were inspired by the classic Tic-Tac-Toe game.
+
+---
 
